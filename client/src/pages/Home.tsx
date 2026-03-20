@@ -11,6 +11,7 @@
  */
 
 import { useState } from 'react';
+import { useEffect } from 'react';
 import { Mail, Phone, MapPin, ExternalLink, Menu, X, BookOpen, Palette, Megaphone, PenTool } from 'lucide-react';
 
 export default function Home() {
@@ -132,7 +133,7 @@ export default function Home() {
 
       {/* About Section */}
       <section id="sobre" className="py-12 md:py-20 container">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
           <div>
             <h3 
               className="text-3xl md:text-4xl font-bold mb-4"
@@ -140,9 +141,7 @@ export default function Home() {
             >
               Sobre
             </h3>
-            <div className="w-12 h-1 bg-[#C85A3A]"></div>
-          </div>
-          <div className="md:col-span-2">
+            <div className="w-12 h-1 bg-[#C85A3A] mb-8"></div>
             <div className="space-y-4 md:space-y-6 text-base md:text-lg text-gray-700 leading-relaxed">
               <p>
                 Graduada em Licenciatura Interdisciplinar em Artes pela UFRB, 
@@ -155,6 +154,13 @@ export default function Home() {
                 através da arte. Também atuo em produção cultural, audiovisual e comunicação.
               </p>
             </div>
+          </div>
+          <div className="flex justify-center">
+            <img 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663403910829/MnGg8dS5stgcHC5XXG3r9n/IMG-20260319-WA0015_3aad4afd.jpg"
+              alt="Rafaela Garcez"
+              className="w-full max-w-sm h-auto rounded-lg shadow-lg"
+            />
           </div>
         </div>
       </section>
