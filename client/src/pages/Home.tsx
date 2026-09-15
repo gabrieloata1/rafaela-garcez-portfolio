@@ -120,7 +120,7 @@ export default function Home() {
           </div>
           <div className="relative">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663403910829/MnGg8dS5stgcHC5XXG3r9n/hero-abstract-art-d5uqGhEiZZvrtDm7yWFdNg.webp"
+              src="/images/hero-abstract-art.jpg"
               alt="Arte abstrata brutalista"
               className="w-full h-auto"
             />
@@ -157,7 +157,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663403910829/MnGg8dS5stgcHC5XXG3r9n/IMG-20260319-WA0015_3aad4afd.jpg"
+              src="/images/rafaela-garcez.jpg"
               alt="Rafaela Garcez"
               className="w-full max-w-sm h-auto rounded-lg shadow-lg"
             />
@@ -193,7 +193,7 @@ export default function Home() {
                 promover consciência ambiental e cidadania.
               </p>
               <img 
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663403910829/MnGg8dS5stgcHC5XXG3r9n/workshop-education-art-M3zCpQQCRYEW3ZqvvZ5iRK.webp"
+                src="/images/workshop-education-art.jpg"
                 alt="Workshop de educação artística"
                 className="w-full h-auto"
               />
@@ -215,7 +215,7 @@ export default function Home() {
                 perspectivas tradicionais e promovem resistência através da arte.
               </p>
               <img 
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663403910829/MnGg8dS5stgcHC5XXG3r9n/performance-art-scene-hk8yKn2j38PynoutEoamTb.webp"
+                src="/images/performance-art.jpg"
                 alt="Performance artística"
                 className="w-full h-auto"
               />
